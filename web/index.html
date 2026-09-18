@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>2D Minecraft Web</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div id="app">
+    <canvas id="game"></canvas>
+
+    <header id="topbar">
+      <div class="brand">2D Craft <span class="sub">Web MVP</span></div>
+      <div class="stats">
+        <span id="stat-fps">0 FPS</span>
+        <span id="stat-pos">X: 0, Y: 0</span>
+        <span id="stat-time">낮</span>
+        <span id="stat-seed">Seed: 0</span>
+      </div>
+      <div class="actions">
+        <button id="btn-craft">판자 제작 (1 통나무 → 4 판자)</button>
+        <button id="btn-save">저장</button>
+        <button id="btn-respawn">리스폰</button>
+        <button id="btn-new">새 월드</button>
+        <button id="btn-help">도움말 (H)</button>
+      </div>
+    </header>
+
+    <div id="hotbar"></div>
+    <div id="toast"></div>
+
+    <div id="touch">
+      <div class="t-left">
+        <button id="t-break">⛏ 캐기</button>
+      </div>
+      <div class="t-right">
+        <button id="t-place">🧱 설치</button>
+      </div>
+    </div>
+
+    <div id="help" class="hidden">
+      <div class="help-card">
+        <h2>조작법 안내</h2>
+        <ul>
+          <li>이동: <code>A</code> / <code>D</code> 또는 방향키 <code>←</code> / <code>→</code></li>
+          <li>점프: <code>Space</code>, <code>W</code>, <code>↑</code></li>
+          <li>블록 캐기: 마우스 왼쪽 클릭 (반경 6타일)</li>
+          <li>블록 설치: 마우스 오른쪽 클릭</li>
+          <li>핫바 슬롯 선택: 숫자키 <code>1</code> ~ <code>8</code>, 마우스 휠, 핫바 클릭</li>
+          <li>판자 제작: 상단 <strong>판자 제작</strong> 버튼 (통나무 1개 소모)</li>
+          <li>월드 저장: 10초 주기 자동 저장, 창 닫기 전 자동 저장, <strong>저장</strong> 버튼</li>
+          <li>도움말 토글: <code>H</code> 키</li>
+        </ul>
+        <p class="hint">동굴, 나무, 다양한 광석(석탄, 철, 다이아몬드)을 탐험해 보세요!</p>
+        <button id="btn-close-help">닫기</button>
+      </div>
+    </div>
+  </div>
+  <script src="./main.js"></script>
+</body>
+</html>
