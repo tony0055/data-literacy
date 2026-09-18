@@ -1,0 +1,42 @@
+#!/usr/bin/env python3
+"""Run explicit, finite project checks and preserve failure status."""
+import json
+from pathlib import Path
+import subprocess
+import sys
+
+ROOT = Path(__file__).resolve().parents[1]
+
+
+def verify(root):
+    settings = json.loads((root / "harness/checks.json").read_text())
+    commands = settings["commands"]
+    timeout = settings.get("timeout_seconds", 120)
+    if not isinstance(commands, list):
+        raise ValueError("commands must be an array")
+    if not commands:
+        print("SKIPPED: no project checks configured", flush=True)
+        return 2
+    if not isinstance(timeout, (int, float)) or timeout <= 0:
+        raise ValueError("timeout_seconds must be positive")
+    for command in commands:
+        if not isinstance(command, list) or not command or not all(isinstance(x, str) and x for x in command):
+            raise ValueError("Every check must be a nonempty argument array")
+    failed = False
+    for command in commands:
+        print(f"CHECK: {command}", flush=True)
+        try:
+            result = subprocess.run(command, cwd=root, timeout=timeout, check=False)
+            failed |= result.returncode != 0
+        except (OSError, subprocess.TimeoutExpired) as error:
+            print(f"FAILED: {error}", file=sys.stderr)
+            failed = True
+    return int(failed)
+
+
+if __name__ == "__main__":
+    try:
+        sys.exit(verify(ROOT))
+    except (OSError, ValueError, KeyError) as error:
+        print(f"Invalid verification configuration: {error}", file=sys.stderr)
+        sys.exit(1)
