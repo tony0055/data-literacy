@@ -1,0 +1,20 @@
+{
+  "rows": 15,
+  "columns": 19,
+  "source_sha256": "70e43b7ab83158cce6db81010a881153c7ab2a64cb77517acc5531e7e655b700",
+  "sites": 4,
+  "products": 11,
+  "author_handles": 14,
+  "duplicate_records": 0,
+  "date_min": "2021-10-13",
+  "date_max": "2026-09-29",
+  "rating_n": 6,
+  "rating_missing": 9,
+  "rating_mean": 93.33333333333333,
+  "rating_median": 100.0,
+  "rating_min": 80.0,
+  "rating_max": 100.0,
+  "rating_sample_std": 10.327955589886445,
+  "affiliate_disclosed_n": 2,
+  "unknown_origin_n": 5
+}

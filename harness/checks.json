@@ -1,4 +1,7 @@
 {
-  "commands": [["python3", "-m", "unittest", "discover", "-s", "tests", "-v"]],
+  "commands": [
+    ["python3", "-m", "unittest", "discover", "-s", "tests", "-v"],
+    ["python3", "scripts/harness_ledger.py"]
+  ],
   "timeout_seconds": 120
 }

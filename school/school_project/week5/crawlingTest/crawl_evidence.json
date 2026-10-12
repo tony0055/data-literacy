@@ -1,0 +1,59 @@
+{
+  "collected_at": "2026-10-02",
+  "timezone": "Asia/Seoul",
+  "local_api_key_check": {
+    "key_present": true,
+    "firecrawl_v2_request_success": true,
+    "target_http_status": 200,
+    "secret_recorded": false
+  },
+  "namuwiki": {
+    "url": "https://namu.wiki/w/%EC%98%81%EC%83%81%20%EC%9D%B8%EA%B3%B5%EC%A7%80%EB%8A%A5",
+    "title": "영상 인공지능 - 나무위키",
+    "markdown_characters": 67744,
+    "wan_3_exactly_mentioned": false,
+    "wan_versions_found": [
+      "Wan 2.1",
+      "Wan 2.7",
+      "HappyHorse 1.0"
+    ],
+    "scrape_id": "01a0fa33-97b5-75df-907d-b2a77ab44307"
+  },
+  "official_sources": [
+    {
+      "name": "Alibaba Cloud WAN 3.0 guide",
+      "url": "https://www.alibabacloud.com/help/en/model-studio/wan3-video-generation-guide",
+      "http_status": 200,
+      "scrape_id": "01a0fa33-7263-75d1-b217-731ff9141e57"
+    },
+    {
+      "name": "Alibaba Cloud WAN 3.0 release",
+      "url": "https://modelstudio.console.alibabacloud.com/model-releases/wan3.0-video",
+      "http_status": 200,
+      "scrape_id": "01a0fa33-fccf-7444-b2b5-836c5e90c618"
+    },
+    {
+      "name": "Dreamina Seedance 2.5 launch",
+      "url": "https://dreamina.capcut.com/resource/seedance-2-5-launch",
+      "http_status": 200,
+      "scrape_id": "01a0fa33-5b5f-76cb-af60-da24c6255531"
+    },
+    {
+      "name": "Dreamina Seedance 2.5 product",
+      "url": "https://dreamina.capcut.com/seedance/seedance-2-5",
+      "http_status": 200,
+      "scrape_id": "01a0fa34-1060-745d-918d-0bc01b466b0a"
+    },
+    {
+      "name": "NamuWiki Seedance",
+      "url": "https://namu.wiki/w/Seedance",
+      "http_status": 200,
+      "scrape_id": "01a0fa33-4f7d-734a-bdf3-4a3988884a1d"
+    }
+  ],
+  "limitations": [
+    "The NamuWiki video-AI page did not explicitly mention Wan 3.0 at collection time.",
+    "Vendor product pages are authoritative for advertised features but are not an independent quality benchmark.",
+    "No side-by-side generation quality test was performed."
+  ]
+}

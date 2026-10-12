@@ -1,0 +1,197 @@
+{
+  "collected_at": "2026-10-02",
+  "scope": "국내 사이트 한국어 리뷰. 작성자의 국적·거주지 또는 국내 구매를 의미하지 않음.",
+  "review_count": 15,
+  "sites": {
+    "다나와": 6,
+    "클리앙": 5,
+    "네이버 블로그": 1,
+    "티스토리": 3
+  },
+  "types": {
+    "쇼핑몰 구매후기": 6,
+    "사용기": 9
+  },
+  "sources": [
+    {
+      "source_url": "https://prod.danawa.com/info/?pcode=73561652",
+      "method": "ego-lite (Firecrawl API 본문 미노출)",
+      "initial_scrape_id": "",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://prod.danawa.com/info/?pcode=32485763",
+      "method": "ego-lite (Firecrawl API 본문 미노출)",
+      "initial_scrape_id": "",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://prod.danawa.com/info/?pcode=32485763",
+      "method": "ego-lite (Firecrawl API 본문 미노출)",
+      "initial_scrape_id": "",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://prod.danawa.com/info/?pcode=123803973",
+      "method": "ego-lite (Firecrawl API 본문 미노출)",
+      "initial_scrape_id": "",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://prod.danawa.com/info/?pcode=123803973",
+      "method": "ego-lite (Firecrawl API 본문 미노출)",
+      "initial_scrape_id": "",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://prod.danawa.com/info/?pcode=123803973",
+      "method": "ego-lite (Firecrawl API 본문 미노출)",
+      "initial_scrape_id": "",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://www.clien.net/service/board/use/18770803",
+      "method": "Firecrawl v2 API",
+      "initial_scrape_id": "01a0fa51-cc86-7069-b393-645834c2d5fe",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://blog.naver.com/teaiteai/224032007208",
+      "method": "Firecrawl v2 API",
+      "initial_scrape_id": "01a0fa52-0065-764f-ae1b-416c1e196182",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://jmook.tistory.com/91",
+      "method": "Firecrawl v2 API",
+      "initial_scrape_id": "01a0fa51-d22d-734a-b44e-fb64c269ed24",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://bruce.tistory.com/1198143462",
+      "method": "Firecrawl v2 API",
+      "initial_scrape_id": "01a0fa51-e802-7425-bdc8-969179e7cf0e",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://ksjand1004.tistory.com/52",
+      "method": "Firecrawl v2 API",
+      "initial_scrape_id": "01a0fa52-bb3c-770c-8e67-21da498f22de",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://www.clien.net/service/board/use/19090089",
+      "method": "Firecrawl v2 API",
+      "initial_scrape_id": "01a0fa53-2395-76bf-924f-7b9291b693a1",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://www.clien.net/service/board/use/19191817",
+      "method": "Firecrawl v2 API",
+      "initial_scrape_id": "01a0fa53-36a2-778d-af69-8027913ae950",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://www.clien.net/service/board/use/19220384",
+      "method": "Firecrawl v2 API",
+      "initial_scrape_id": "01a0fa53-4a4b-756c-b24e-5c346d2e851b",
+      "observed_date": "2026-10-02"
+    },
+    {
+      "source_url": "https://www.clien.net/service/board/use/16588476",
+      "method": "Firecrawl v2 API",
+      "initial_scrape_id": "01a0fa53-5fa7-704b-87a8-9b57393a163e",
+      "observed_date": "2026-10-02"
+    }
+  ],
+  "limitations": [
+    "편의표본이며 대표성 없음; 구매후기와 개인 사용기를 분리할 것",
+    "다나와는 동적 쇼핑몰 리뷰 영역을 ego-lite로 직접 확인; 원 쇼핑몰 상세 페이지는 미확인",
+    "사용기는 별점 없음; 구매 진술은 작성자 주장이고 구매 인증이 아님",
+    "오라질 작성자 사용기 2건은 독립 구매자 2명으로 해석하지 말 것",
+    "요약은 수집자 작성, 발췌는 원문 일부; 기능 지원은 게시 당시 경험"
+  ],
+  "excluded": [
+    {
+      "source_url": "https://prod.danawa.com/info/?pcode=13151421",
+      "reason": "실제 쇼핑몰 리뷰 탭에 등록된 상품리뷰 없음"
+    }
+  ],
+  "api_excerpt_checks": {
+    "checked_at": "2026-10-02",
+    "results": [
+      {
+        "source_url": "https://www.clien.net/service/board/use/18770803",
+        "method": "Firecrawl v2 API",
+        "status_code": 200,
+        "scrape_id": "01a0fa56-aadb-73ee-b057-d101b1b2144d",
+        "excerpt_matched": true,
+        "api_success": true
+      },
+      {
+        "source_url": "https://blog.naver.com/teaiteai/224032007208",
+        "method": "Firecrawl v2 API",
+        "status_code": 200,
+        "scrape_id": "01a0fa56-aaf8-716d-8d9d-fd16de22161f",
+        "excerpt_matched": true,
+        "api_success": true
+      },
+      {
+        "source_url": "https://jmook.tistory.com/91",
+        "method": "Firecrawl v2 API",
+        "status_code": 200,
+        "scrape_id": "01a0fa56-aad0-73ca-b565-16e7653c90ab",
+        "excerpt_matched": true,
+        "api_success": true
+      },
+      {
+        "source_url": "https://bruce.tistory.com/1198143462",
+        "method": "Firecrawl v2 API",
+        "status_code": 200,
+        "scrape_id": "01a0fa56-af7a-74d1-9407-baee07f393fa",
+        "excerpt_matched": true,
+        "api_success": true
+      },
+      {
+        "source_url": "https://ksjand1004.tistory.com/52",
+        "method": "Firecrawl v2 API",
+        "status_code": 200,
+        "scrape_id": "01a0fa56-afea-714c-9885-9557365ae283",
+        "excerpt_matched": true,
+        "api_success": true
+      },
+      {
+        "source_url": "https://www.clien.net/service/board/use/19090089",
+        "method": "Firecrawl v2 API",
+        "status_code": 200,
+        "scrape_id": "01a0fa56-b0bd-763e-ac01-842ca9490d67",
+        "excerpt_matched": true,
+        "api_success": true
+      },
+      {
+        "source_url": "https://www.clien.net/service/board/use/19191817",
+        "method": "Firecrawl v2 API",
+        "status_code": 200,
+        "scrape_id": "01a0fa56-b3d9-7450-a9aa-c5a8a562f3ff",
+        "excerpt_matched": true,
+        "api_success": true
+      },
+      {
+        "source_url": "https://www.clien.net/service/board/use/19220384",
+        "method": "Firecrawl v2 API",
+        "status_code": 200,
+        "scrape_id": "01a0fa56-b406-7409-9adf-3a3581222cf8",
+        "excerpt_matched": true,
+        "api_success": true
+      },
+      {
+        "source_url": "https://www.clien.net/service/board/use/16588476",
+        "method": "Firecrawl v2 API",
+        "status_code": 200,
+        "scrape_id": "01a0fa56-b5ab-736c-bd55-5277891e0ebe",
+        "excerpt_matched": true,
+        "api_success": true
+      }
+    ]
+  }
+}

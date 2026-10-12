@@ -1,0 +1,700 @@
+{
+  "repository": "https://github.com/shain1912/pnu-lectures-2026",
+  "revision": "f25491512e69c264097fb1d10b650f0ceb135f7c",
+  "retrieved_on": "2026-10-02",
+  "files": [
+    {
+      "path": "dataliteracy/README.md",
+      "bytes": 2904,
+      "sha256": "6ee1ce2474939a1b24df6fd00c92562f322db894b8afb41165570cc538aff443",
+      "git_blob": "c25bd10eda3e76d2d88ad0873ee5c6c72fc6c71a",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/README.md"
+    },
+    {
+      "path": "dataliteracy/dist/d02-interactive-slides.zip",
+      "bytes": 109992,
+      "sha256": "20b7c263ce8d5827310e54f07b3b6397e097929bc022a358e5eb3922032ec42b",
+      "git_blob": "3d395f63a6e533371d9887d1f58584bb74e7047d",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/dist/d02-interactive-slides.zip"
+    },
+    {
+      "path": "dataliteracy/dist/d02-데이터의종류와수집설계.pdf",
+      "bytes": 1095142,
+      "sha256": "8a3a94a272a7178d8ef903dd19e60ff19c35dd76bbfd737b288b2e00ae7d8917",
+      "git_blob": "cc8427e269a3242f0f33c29e0529026a540165f1",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/dist/d02-데이터의종류와수집설계.pdf"
+    },
+    {
+      "path": "dataliteracy/dist/d03-interactive-slides.zip",
+      "bytes": 101384,
+      "sha256": "9d3fe9a9cff3d058537758eac4911a3b56be906c56d143021c03316b8a375064",
+      "git_blob": "a95cb5e367f2095443e4e15562d5609f89fb95ec",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/dist/d03-interactive-slides.zip"
+    },
+    {
+      "path": "dataliteracy/dist/d03-데이터정제와전처리.pdf",
+      "bytes": 1018488,
+      "sha256": "daa6ddb10ca88a4eef290d939a544d097eacebd6b3e4a448f4d1a7f48efb837e",
+      "git_blob": "4796397ddb6564dfb43a9027018a5003b4331ced",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/dist/d03-데이터정제와전처리.pdf"
+    },
+    {
+      "path": "dataliteracy/dist/d04-interactive-slides.zip",
+      "bytes": 171674,
+      "sha256": "0c5b121dcf49f7fd276821a06a2f5535d3690c8d4ebfd71ce6cadadcf421a791",
+      "git_blob": "b1989c288e0ed5ee2579d36c1a39cdfda73bfe9b",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/dist/d04-interactive-slides.zip"
+    },
+    {
+      "path": "dataliteracy/dist/d04-기술통계기초.pdf",
+      "bytes": 1548184,
+      "sha256": "92f509174046eae8c3a621edeccc03abb091e905354645477211eabea0898288",
+      "git_blob": "a93f3d0772ec5b89a4358b396af4351ba175734d",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/dist/d04-기술통계기초.pdf"
+    },
+    {
+      "path": "dataliteracy/dist/d05-interactive-slides.zip",
+      "bytes": 144782,
+      "sha256": "e134917cc54861a4f8ebdc1e98f73b778a5e245e9a5e7ec24355b094432ff286",
+      "git_blob": "498ee7547b80e5e35ab5e64d6c519b8b71dfca3e",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/dist/d05-interactive-slides.zip"
+    },
+    {
+      "path": "dataliteracy/dist/d05-z점수와표준화.pdf",
+      "bytes": 1206405,
+      "sha256": "e54a85ddca422f8eb57ac027db96adc9e23b3d3e1ad6d021ea4b3b6ccf1a95a2",
+      "git_blob": "ee2df260f3865089644f91f12e3256d862231f85",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/dist/d05-z점수와표준화.pdf"
+    },
+    {
+      "path": "dataliteracy/dist/d06-interactive-slides.zip",
+      "bytes": 153597,
+      "sha256": "b0f86615d0c77bd1ab7c0f4b601a25284b23f6d22c16a161298a124eb41b835d",
+      "git_blob": "2327595f4dabd25b3033db95e866ede4310f84a5",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/dist/d06-interactive-slides.zip"
+    },
+    {
+      "path": "dataliteracy/dist/d06-차트선택과시각화의함정.pdf",
+      "bytes": 1721002,
+      "sha256": "351190661d7c2ed0926ad59be22339666c1b6ced3cd8539a2a29e656bf131ce2",
+      "git_blob": "fc70ba20d71cad77c15a120900a820be71a1bb89",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/dist/d06-차트선택과시각화의함정.pdf"
+    },
+    {
+      "path": "dataliteracy/figures/_style.py",
+      "bytes": 5133,
+      "sha256": "4cd4c1009c2237b1489ec787c55ef5cebf05a3a4acd906aa8644049ef549d348",
+      "git_blob": "172b7cbba92b421ee06c4dfb52505a4c9a6bfccc",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/_style.py"
+    },
+    {
+      "path": "dataliteracy/figures/d02_figures.py",
+      "bytes": 15020,
+      "sha256": "4b40ca5b541bae0dcb5c2a4cbf175fb56d8722817c8812bd08cb32368d11d175",
+      "git_blob": "aa912905e02c1a634f4cc198aa5b4aef1f746cd5",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/d02_figures.py"
+    },
+    {
+      "path": "dataliteracy/figures/d03_figures.py",
+      "bytes": 10983,
+      "sha256": "4f7d4a69a8319b8426587c0c5cf3e2a385e85e9ac277a03698e4ffa96f78bc90",
+      "git_blob": "24f4baa3e200e320244c389fadf7dd0904067210",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/d03_figures.py"
+    },
+    {
+      "path": "dataliteracy/figures/d04_figures.py",
+      "bytes": 26198,
+      "sha256": "0c8a5416f11ae7e979a7fbc66f6200e5ca17f41fb872bfb834a17783e9d99e36",
+      "git_blob": "f922b27994fd617d74727ffb36f616eaad344e45",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/d04_figures.py"
+    },
+    {
+      "path": "dataliteracy/figures/d05_figures.py",
+      "bytes": 16429,
+      "sha256": "081ee5bc0d4c41cd0d170667c16b174ac08ddc2cb5df29fcfed93b3c17998a8b",
+      "git_blob": "05a2293b88565a8636a7ab91f746eecee9ed7b01",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/d05_figures.py"
+    },
+    {
+      "path": "dataliteracy/figures/d06_figures.py",
+      "bytes": 22410,
+      "sha256": "febb29e1a24ef0cbea5baa4989f7855927e8710243b55b2feb58f7d679a0d10e",
+      "git_blob": "ee2516a38f19ef9c125e7250ad92d9a73e9f5cfd",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/d06_figures.py"
+    },
+    {
+      "path": "dataliteracy/figures/out/d02-collection-design.png",
+      "bytes": 112110,
+      "sha256": "ce56fc234d08d4e193fea565cede8ad26cc70183ca86271748f870ce64f54910",
+      "git_blob": "14223cc31fd806125d1f1067ac807d8d1161ab13",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d02-collection-design.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d02-collection-design.svg",
+      "bytes": 84439,
+      "sha256": "9ab458569f1e9e193cb7aa223788a8d202be9bb44b61a8a45b1f15daa627c716",
+      "git_blob": "e8e05471c74b40595058d746ebccc6f4da128fba",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d02-collection-design.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d02-sampling-bias.png",
+      "bytes": 70150,
+      "sha256": "31380d744b1a05b1acd8caf94819dce854876c07332fec9b0e53ad40c2bc4f68",
+      "git_blob": "43dcce09a8e64efb6c8663536e93449dce7f9b37",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d02-sampling-bias.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d02-sampling-bias.svg",
+      "bytes": 77237,
+      "sha256": "514def2338f1c2230e9900ee4f0fc171c5375432e0244a69b925ae565d31d6ba",
+      "git_blob": "a18bb529228cbae98e9ed0e89e711d998f605e8f",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d02-sampling-bias.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d02-scales.png",
+      "bytes": 100791,
+      "sha256": "335964a59dba135431d0a86b3a45be5d68b97757950da135fb68949a1d20fa07",
+      "git_blob": "38273f90e76e515aaa7bcedff3669c079d2193ad",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d02-scales.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d02-scales.svg",
+      "bytes": 74430,
+      "sha256": "b7dc28d976c7c8830e39483dc57fd44dd01890cac0be5ee01b37564b5ff03180",
+      "git_blob": "a8987481f85f87340fc75776b7aa292d479d0459",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d02-scales.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d02-survivorship.png",
+      "bytes": 75102,
+      "sha256": "bea2c71ed343fe17d7b178556f74faeb3eedd8ff028481a49e5b823d432696e6",
+      "git_blob": "373c64b34d3742157f14fba316e151ddde119e9b",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d02-survivorship.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d02-survivorship.svg",
+      "bytes": 46519,
+      "sha256": "cb6defffc548d14a90dbc502b7186e5af4e935f97e7ed29984208542023ecd9e",
+      "git_blob": "76b0b3bc45090cfa9ef4e881149756c1c643b071",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d02-survivorship.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d02-table-grammar.png",
+      "bytes": 82856,
+      "sha256": "860f866bc0b5bfabd777fdc70811075f95c5736d084af519fbe369a3187614c2",
+      "git_blob": "437207d6d4640670c5268013aa3f3042d26779fe",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d02-table-grammar.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d02-table-grammar.svg",
+      "bytes": 70069,
+      "sha256": "3a99ca45f7bf34da1f11c38a66264b7c99b70dbe3f77c381ed2ae38142c89ec9",
+      "git_blob": "e662b9aeb8857e88ae7cecc334b8c2c905fcfd20",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d02-table-grammar.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d02-tidy.png",
+      "bytes": 100888,
+      "sha256": "1f831078f4f4da0f0498183d5179e7077b43457e5eae20d650ff341291374626",
+      "git_blob": "f7dd676827e7815564da109871e72752b770704d",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d02-tidy.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d02-tidy.svg",
+      "bytes": 75751,
+      "sha256": "d834ec102c3e9cbf6659a6742e7203106ff4cbbbe7a3819aa95bdaf43f15b96e",
+      "git_blob": "f27a1051dc1dd429dfedba897f506ffdd8b0ba89",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d02-tidy.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d03-cleaning-log.png",
+      "bytes": 97725,
+      "sha256": "afa50e1d541feecdc474011cc49e2bf5d78d8d01cd75398c88378c2c5c49ebc4",
+      "git_blob": "6baa932c6f8155211af81512bbefd01463910947",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d03-cleaning-log.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d03-cleaning-log.svg",
+      "bytes": 89380,
+      "sha256": "824791a161b782c6184c53ed5d6da7cc69c115c07a7334af6d09f294aa688b59",
+      "git_blob": "25184611dccb0da84349cfcf17850dcd9b3bda50",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d03-cleaning-log.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d03-dirty-data.png",
+      "bytes": 108921,
+      "sha256": "ef9122f176c6495378a8f402f944f48be9d43a387df64f08fe16efe9bafbfc45",
+      "git_blob": "9ceabfcaf02f5745ab767868bdcf50de0e9961e4",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d03-dirty-data.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d03-dirty-data.svg",
+      "bytes": 94801,
+      "sha256": "b7f178bcd8887bad277c98e88a62abe25ce233a7ee8706aea2bdf21d5d2d9d9b",
+      "git_blob": "d74785a2f28d176607816146cc8029085ea3e49e",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d03-dirty-data.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d03-mean-imputation.png",
+      "bytes": 77354,
+      "sha256": "1c15cfe7fca92c530bdd9553ecbf0aadf2e7cccc18c7be08f258abe0aa2cc52b",
+      "git_blob": "820814ae6038dc498fd6002961d84df1059aa9b3",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d03-mean-imputation.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d03-mean-imputation.svg",
+      "bytes": 73623,
+      "sha256": "dfda94c02c57891ea41634a6025c77922145da616467c47f112e31ab0d578bcb",
+      "git_blob": "3576b8e7c33e7a1b5710b4c72877120b50d3f2b5",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d03-mean-imputation.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d03-missing-why.png",
+      "bytes": 95235,
+      "sha256": "a0558b7faf45d0f352049ea13d1a811aa11608b135c1b72988404d43f9fe02bc",
+      "git_blob": "5f40f685500aea1fb5c499b9f2e4de70375accc6",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d03-missing-why.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d03-missing-why.svg",
+      "bytes": 69829,
+      "sha256": "634268101600f0a6e9de058916c82c53db63fa602e4d97a1ce4f527d1f5f3d9a",
+      "git_blob": "a955d698bed873517254988d1b5ae86e9fdedd89",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d03-missing-why.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d03-same-data-diff-conclusion.png",
+      "bytes": 100812,
+      "sha256": "09a905d4a1aa7a7fd0f4034f085a0203ed836cb6843bc2a12e4d7400ea13200b",
+      "git_blob": "e1de3b6e86de1aeb9a8154de09d65a21f62ff028",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d03-same-data-diff-conclusion.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d03-same-data-diff-conclusion.svg",
+      "bytes": 57969,
+      "sha256": "3fe29860d327e0b48c9e4c03880a8a03f0752c76b1920c22fcdafd6c63abc71a",
+      "git_blob": "d2ca3ca4c112b55f6b1a34266dc21de8b577baa7",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d03-same-data-diff-conclusion.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d04-anscombe.png",
+      "bytes": 169391,
+      "sha256": "e2eeb18ef3cadbc0544ad688808e17d6c50ecb352687ff1b3679de75869ec4df",
+      "git_blob": "b7ecf409eccd6bff24d5312baba9753e5611e23a",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d04-anscombe.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d04-anscombe.svg",
+      "bytes": 96773,
+      "sha256": "5f2937a904ed508e027810c24d5db8762e8c84f1da7c64df82bedb64723286f9",
+      "git_blob": "ca018d43f7fac103c6b39ddb1977f335b54196c8",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d04-anscombe.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d04-distribution-shapes.png",
+      "bytes": 190775,
+      "sha256": "d08a2200681ed98f6c5e74fe146fb359d6efbdfd08182765dacd1184ba6eb55a",
+      "git_blob": "a50d7b10cb0a204cde63bea73b0933b3e1ea984e",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d04-distribution-shapes.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d04-distribution-shapes.svg",
+      "bytes": 155903,
+      "sha256": "279d419b5885df27655018574d8efdcab97d8bc46a452c3db6adb981d3d7c95d",
+      "git_blob": "4d8917d2fe20c4e9d3972821070bc80ac960eb21",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d04-distribution-shapes.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d04-mean-trap.png",
+      "bytes": 169593,
+      "sha256": "a933a19757490df7ac8e54fcea63269650880680bc7bac2d843b4a918c405e56",
+      "git_blob": "03041099380898371805cd7307de7b7dcf759be7",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d04-mean-trap.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d04-mean-trap.svg",
+      "bytes": 126410,
+      "sha256": "aee8437fed16823ad79d063dd4466506601bf99e9c378e98a729fe1d14b5aba6",
+      "git_blob": "2f1b23d04daf9d8506ddb5fab4744d7939a60dd1",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d04-mean-trap.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d04-mean-vs-median.png",
+      "bytes": 153990,
+      "sha256": "28532a2aae9444992c2b841a4a41195d8db585fc74e9479f8fedacb9aafe811c",
+      "git_blob": "cc25a8e7bfabde9fbadb9d34cb57eb28347c8e41",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d04-mean-vs-median.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d04-mean-vs-median.svg",
+      "bytes": 99005,
+      "sha256": "c91ccc167d03e9ae0c8a5e61e15f1a4af2695e0f96fd3fa2702937399caa4d71",
+      "git_blob": "f9c8c4f401fe78a0dfc94d99d19ec5e990ba49a8",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d04-mean-vs-median.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d04-same-mean-diff-spread.png",
+      "bytes": 131291,
+      "sha256": "17192106d385de63e90dc4fa5d5269e2fa189c9404df112cd9ad73a02e67886b",
+      "git_blob": "5984b365e14808347a0b6f9e9cd16efb9695b4d4",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d04-same-mean-diff-spread.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d04-same-mean-diff-spread.svg",
+      "bytes": 103320,
+      "sha256": "8842a865c367c79a502a25d792660c6ad5c5a274cf1c9a587b1e52a03168de17",
+      "git_blob": "eb209386e4fadd9d40a1c4f7d60aefff58113bf3",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d04-same-mean-diff-spread.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d04-variance-steps.png",
+      "bytes": 196709,
+      "sha256": "7fa76d109e511c5b4530c65b24bc1a6fcebfacf2779b448b75e650aa8cdc8033",
+      "git_blob": "b0f46e9094fd273211b792f09fed2f29532ff8af",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d04-variance-steps.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d04-variance-steps.svg",
+      "bytes": 127817,
+      "sha256": "066b878c9ac63b1e553b168c2b52d19b9a51a917b95218402b0f22a7a4970701",
+      "git_blob": "1b015368ea67c168e3c271b82fab6e2e97fc0e38",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d04-variance-steps.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d05-normal-68-95.png",
+      "bytes": 103885,
+      "sha256": "52513d13ddd6f353f09eeeb08a6d669a1a7542652f1ce55deffaeb13e72c7136",
+      "git_blob": "2d012fa5dd6f30b65e733d8434caac037a2c1820",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d05-normal-68-95.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d05-normal-68-95.svg",
+      "bytes": 127587,
+      "sha256": "75e222da4914a62e01908537e654e8baf19c248fadadec3c99826c21d48eb909",
+      "git_blob": "b7019f0e088a6ed2cfec19eba013cc66c289c373",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d05-normal-68-95.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d05-outlier-rules.png",
+      "bytes": 124618,
+      "sha256": "56d2f7547257953559cc09e537dce2c1ff2f3dc70245e565a761409b754a7f0d",
+      "git_blob": "cacfe47a7da08fd9f52c19ac416eed371a8bd183",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d05-outlier-rules.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d05-outlier-rules.svg",
+      "bytes": 91049,
+      "sha256": "6961f4063b565aec218f4f4f34b3c81114ec7b63ca389f8954792910b6da922a",
+      "git_blob": "fa20a58c2b73eec65b3d199aaf7ecd9999e81165",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d05-outlier-rules.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d05-skew-breaks-z.png",
+      "bytes": 124031,
+      "sha256": "21144fb9cddf605859aae1cd0b6d648843356067c9249e084a8597216132611c",
+      "git_blob": "ad667f28d49813951dd546673e7963a711543670",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d05-skew-breaks-z.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d05-skew-breaks-z.svg",
+      "bytes": 102471,
+      "sha256": "918c6734eac415708e6c746d2f8545c3c22e2b7f4b8748bd06788832ab8936ed",
+      "git_blob": "2b1a5f4626203359c1930dba78d5835c764a6882",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d05-skew-breaks-z.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d05-two-subjects.png",
+      "bytes": 129135,
+      "sha256": "b5f6aeab3bfb0f5c3e1d7cb23e9d768e2fc867c64933ac808ee8f9f1aff79296",
+      "git_blob": "2a57c8ca2752787de9ad1beb3e1380d1c2b9fb38",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d05-two-subjects.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d05-two-subjects.svg",
+      "bytes": 158384,
+      "sha256": "3eab2654be5c069908a4e872563f65159bdb6ba93d186256a648313b8e04d8e4",
+      "git_blob": "4af884c1fc2363c05be43d6d7fe5a7a073974dc0",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d05-two-subjects.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d05-zscore-formula.png",
+      "bytes": 129373,
+      "sha256": "857c831d3a49b4f9069be41cc683feac19ebce3f6d4306232d3ecb8194b8a1fd",
+      "git_blob": "9fc8b3934f3075078d7dd845530b6a8dce10b7ec",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d05-zscore-formula.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d05-zscore-formula.svg",
+      "bytes": 86547,
+      "sha256": "f4e5c2bd1c027a47c7383e55a925297fb4d271704a1ccedbc5885852ca2c4f4b",
+      "git_blob": "3fe898c350f08f10757195ed1f2c5486c370a377",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d05-zscore-formula.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-area-illusion.png",
+      "bytes": 120526,
+      "sha256": "8dc496b197df096b2c6cfd08791be1d4ded3cd04c86c981b9bfd0f60d90b092a",
+      "git_blob": "8c7a4f0d9cda4177df9d71c39f5fb515619e5ca5",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-area-illusion.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-area-illusion.svg",
+      "bytes": 61181,
+      "sha256": "5c7fa6647d8e1f31e8a4bc47d601aeb8ee3e0bee8569c47fcb2ae1eb246cd47e",
+      "git_blob": "ed04bba89b2484cf77d33e6f3ff90353631d239a",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-area-illusion.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-axis-truncation.png",
+      "bytes": 100743,
+      "sha256": "fde8996b9a1d52bd657072aef7bc3ca9270e7fa1fb8976e7aa2580e67dc14eb3",
+      "git_blob": "4843bdf176949b0bae4b617d78cbb56a21cca0fe",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-axis-truncation.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-axis-truncation.svg",
+      "bytes": 66047,
+      "sha256": "441fdbe8edeb66a0a385cf6df2287d36b161cb00213cadc321cb7c6c0b84c04c",
+      "git_blob": "900333cba0d99ed58a9654c465bba18b83659216",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-axis-truncation.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-bin-width.png",
+      "bytes": 78257,
+      "sha256": "69e7ed5125833fdb282084bd69c7db11d74fe1b2466c572130b3726a0c459179",
+      "git_blob": "53a841bf0f5d8334a3dc1ce38df0ced4d5926ba3",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-bin-width.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-bin-width.svg",
+      "bytes": 80003,
+      "sha256": "7d7bf8cc5edfe6f00387f8942fd93b166747665ecfb61e9f5977ae406567347f",
+      "git_blob": "df1256502ed10e8b4a25ffbe1357a9605fc972d2",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-bin-width.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-chart-decision.png",
+      "bytes": 134198,
+      "sha256": "2c8b7c67970d0029ed9a22dffa426c8e140eabe9d5b1e5e2b2dffb5de47463c4",
+      "git_blob": "f96a8f8e214883502b6a10e6102b4ab6fafa7eef",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-chart-decision.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-chart-decision.svg",
+      "bytes": 78609,
+      "sha256": "daad37c6932b419b36b4c55f660a9b2e3a7679ba9616aa5d085ebeee6da67fcb",
+      "git_blob": "3f5f2d56f92f9989458be90077f6591d74925eb9",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-chart-decision.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-chart-strengths.png",
+      "bytes": 276836,
+      "sha256": "b13924de916493a7289e70bfc3746c8cd10764d7040aa5b662a567da07af2dcc",
+      "git_blob": "3d0bcfb89318dba4141c5f89986f616c716978a2",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-chart-strengths.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-chart-strengths.svg",
+      "bytes": 189599,
+      "sha256": "9c05176adff6ba467b1e37c799f393b4ce2cd9bfdae73cc54bc957ee1cf4ba58",
+      "git_blob": "43ef45d173fdd322b350f4f456f1f2dfc9bfb804",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-chart-strengths.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-dual-axis.png",
+      "bytes": 206593,
+      "sha256": "d406f5806585f566791541f32d5717444decf572862194e0f38ac3de687682c6",
+      "git_blob": "697a5320f5a82f96b2f5340b35bf4afd0da850ac",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-dual-axis.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-dual-axis.svg",
+      "bytes": 89361,
+      "sha256": "7a24ad4c72d92f2f4c39c243609e72739e03f84b79e50da615835158e90be3d4",
+      "git_blob": "c228101da427c23663816c6c70cc9ea4ca627726",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-dual-axis.svg"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-ml-overfitting.png",
+      "bytes": 175222,
+      "sha256": "a4f9a066815470550fdf228944b7d37472a6766d25d1efc3c8b8fe67170d92f9",
+      "git_blob": "52b064b176bf823f51c3916ae666c2c590c763eb",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-ml-overfitting.png"
+    },
+    {
+      "path": "dataliteracy/figures/out/d06-ml-overfitting.svg",
+      "bytes": 73419,
+      "sha256": "270f77a186b0ac282a79cb0368f86d830beb51ad2b4e2529eb80de2478e4084a",
+      "git_blob": "3f5388a712402d69d550daf8da2f1b517a6028c0",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/figures/out/d06-ml-overfitting.svg"
+    },
+    {
+      "path": "dataliteracy/slides/_shared/deck.js",
+      "bytes": 1848,
+      "sha256": "cb6527cb76e8ae294e4c9007222737804cd129fd9cb8cc5e7082df6b7e9778f3",
+      "git_blob": "76d9c421238739e908663e9d813370bb8ac258a2",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/slides/_shared/deck.js"
+    },
+    {
+      "path": "dataliteracy/slides/_shared/demos/d03.js",
+      "bytes": 5622,
+      "sha256": "841fd2c20897433625618ef0475f94ec603be44ef41c266ce1e5ab829b2e478d",
+      "git_blob": "ad60dc990f95803562f01bcdd2189a3489380d98",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/slides/_shared/demos/d03.js"
+    },
+    {
+      "path": "dataliteracy/slides/_shared/demos/d04.js",
+      "bytes": 9565,
+      "sha256": "f517877a581d226912e23d69dd44dd8299cbbfb1a0d2eeea0230709539ff0193",
+      "git_blob": "309df478c68dbc9ff75c9680bc7adf9c1cb798d3",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/slides/_shared/demos/d04.js"
+    },
+    {
+      "path": "dataliteracy/slides/_shared/demos/d05.js",
+      "bytes": 10642,
+      "sha256": "8ac4213e96ff118b1daeee442f9263942dde4f0e39cd7e3e4bdee49257bde200",
+      "git_blob": "5bf1c189c3451c456e885928870312d95de1bd82",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/slides/_shared/demos/d05.js"
+    },
+    {
+      "path": "dataliteracy/slides/_shared/demos/d06.js",
+      "bytes": 8156,
+      "sha256": "a062ef811aa6f6eabf422651208d97808aeff5d28c5bdcbba157c7d48c4c8d15",
+      "git_blob": "77c750c7b8d18436108b5a4127c2d9920e211740",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/slides/_shared/demos/d06.js"
+    },
+    {
+      "path": "dataliteracy/slides/_shared/theme.css",
+      "bytes": 11885,
+      "sha256": "9589f91ca452e1473bdd373b2d8fdedc4d197805070c10f9179fee2fb1167598",
+      "git_blob": "8b3fcb2abe873685cf938efad93b18dc73e5c262",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/slides/_shared/theme.css"
+    },
+    {
+      "path": "dataliteracy/slides/build.mjs",
+      "bytes": 6911,
+      "sha256": "f141424f0f1497866671444129feb25272ddc2e269fcdf8e0d6eed453af18120",
+      "git_blob": "cd2cdb25e8fd91c09f177244c570f4c84c250357",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/slides/build.mjs"
+    },
+    {
+      "path": "dataliteracy/slides/w02/index.html",
+      "bytes": 15062,
+      "sha256": "eb233396920bf837c52edb228b5244a4393abea9f565130c926e1d2e4275dd0e",
+      "git_blob": "7598e4bd7dfda15ab821e3a447939615777f83d1",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/slides/w02/index.html"
+    },
+    {
+      "path": "dataliteracy/slides/w03/index.html",
+      "bytes": 14535,
+      "sha256": "3a42c5f38f3e67bddc046fcebd7a25ad57ee6a378e418349431242245dca69ea",
+      "git_blob": "4c193167b24e6a07180359f4f55b8b1eee39d1e4",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/slides/w03/index.html"
+    },
+    {
+      "path": "dataliteracy/slides/w04/index.html",
+      "bytes": 23627,
+      "sha256": "34204361eec6fcff14597c824b975f5c98447294784dd09edad9b9dc56b0c53e",
+      "git_blob": "1a78e6c3865b3173a4961b83acc186ab58efe020",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/slides/w04/index.html"
+    },
+    {
+      "path": "dataliteracy/slides/w05/index.html",
+      "bytes": 22752,
+      "sha256": "d143778a3426428b90378acc8453fd209c63636f5ebed75d29acf9fa6693aa46",
+      "git_blob": "425eaa25da21cfa230628f851554abb7bb3f48b5",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/slides/w05/index.html"
+    },
+    {
+      "path": "dataliteracy/slides/w06/index.html",
+      "bytes": 29725,
+      "sha256": "80553f9316ce5c9f057a5d0f29231e40e959dc6ca1692d3cc77ef40dff700054",
+      "git_blob": "a503cd6dded4ab3a3f91f8678dbea043dff9f6c7",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/dataliteracy/slides/w06/index.html"
+    },
+    {
+      "path": "plans/데이터리터러시-5-16주-계획.md",
+      "bytes": 31401,
+      "sha256": "45944b7ccf02c2d68751ce36a62bde3d8e06008e4a11ddfa093258f0c32ec25a",
+      "git_blob": "e9538dbcc7ae90a68e12f3ad90423a6722a8768c",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/plans/데이터리터러시-5-16주-계획.md"
+    },
+    {
+      "path": "tools/print_pdf.py",
+      "bytes": 1076,
+      "sha256": "6b8d4723930d7299e2be995c6d7d45d3651045d4164b85cd79040e4b665c5724",
+      "git_blob": "df9a617e733cecd2dd391b260b28fccbebdb15b2",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/tools/print_pdf.py"
+    },
+    {
+      "path": "배포/데이터리터러시/2주차 데이터의 종류와 수집 설계.txt",
+      "bytes": 564,
+      "sha256": "757017310c03ef9519752093b03ed98c4431761c59bb31ef4cff179fec017b89",
+      "git_blob": "c1c8f030040a6eadd10bdd951258cf84fee83525",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/배포/데이터리터러시/2주차 데이터의 종류와 수집 설계.txt"
+    },
+    {
+      "path": "배포/데이터리터러시/2주차 데이터의 종류와 수집 설계.url",
+      "bytes": 94,
+      "sha256": "429c110147d337982305c0756e82f721c0510ae07502cb5823cf5ef38a4be6e9",
+      "git_blob": "f44fa5f9a3999e8620dad71921c2785b600a5a9f",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/배포/데이터리터러시/2주차 데이터의 종류와 수집 설계.url"
+    },
+    {
+      "path": "배포/데이터리터러시/3주차 데이터 정제와 전처리.txt",
+      "bytes": 551,
+      "sha256": "4ac627103830a32b36cced4bb2e4b9d104a36437701a7cef2e96f3ea3f8ee14c",
+      "git_blob": "32ac33f8c1f7b22e5aeacd4c4083de6bef02b3fc",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/배포/데이터리터러시/3주차 데이터 정제와 전처리.txt"
+    },
+    {
+      "path": "배포/데이터리터러시/3주차 데이터 정제와 전처리.url",
+      "bytes": 94,
+      "sha256": "456597c8dc6cf4c72d64f3a2801f80bca2029e249ef232bc1a05a452e7a165a1",
+      "git_blob": "3534e1ad6d315bf03e7dd0ca3c05216f0c2c62be",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/배포/데이터리터러시/3주차 데이터 정제와 전처리.url"
+    },
+    {
+      "path": "배포/데이터리터러시/4주차 기술통계 기초.txt",
+      "bytes": 532,
+      "sha256": "c293be564032de887f4803d187e097f4cf997c0c071c4d72c259f01528c7d2e1",
+      "git_blob": "87e7265f65eff9be197264688ec8d0e93e4b7e38",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/배포/데이터리터러시/4주차 기술통계 기초.txt"
+    },
+    {
+      "path": "배포/데이터리터러시/4주차 기술통계 기초.url",
+      "bytes": 94,
+      "sha256": "446b333a7af1e1dad05618e9dfd1565b8c14028b4fbbc0273576f8cfaf94e155",
+      "git_blob": "4b1a8b6aee257a48e419ab5ee01a024fc28d80d8",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/배포/데이터리터러시/4주차 기술통계 기초.url"
+    },
+    {
+      "path": "배포/데이터리터러시/5주차 z-점수와 표준화.txt",
+      "bytes": 432,
+      "sha256": "fe03ee3efde23c6542f9c663e499a820a1c190c82aac1e92a4375c46e5716780",
+      "git_blob": "5e5ef3e6b550559b5b0cc74983b340fe57c244b1",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/배포/데이터리터러시/5주차 z-점수와 표준화.txt"
+    },
+    {
+      "path": "배포/데이터리터러시/5주차 z-점수와 표준화.url",
+      "bytes": 94,
+      "sha256": "75fa3df97be49aae3c5b1fa0f9af8484a60d6836f975907df0187bb82b35027d",
+      "git_blob": "631794b3309ad06ba1813ca48bed6ed48045f62f",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/배포/데이터리터러시/5주차 z-점수와 표준화.url"
+    },
+    {
+      "path": "배포/데이터리터러시/6주차 차트 선택과 시각화의 함정.txt",
+      "bytes": 461,
+      "sha256": "dec71cb1571ef01d2de7a4bfd9850e9a436b5b6e48d5162d65d211338dd2e8fc",
+      "git_blob": "95a8979b3b962b45ca322b87668f70508957c97e",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/배포/데이터리터러시/6주차 차트 선택과 시각화의 함정.txt"
+    },
+    {
+      "path": "배포/데이터리터러시/6주차 차트 선택과 시각화의 함정.url",
+      "bytes": 94,
+      "sha256": "11b58db01d719f8511fa7399c818194bc6b8972edaa6a019d8492d7903c4191c",
+      "git_blob": "922b01ec37f8d6ef758c579cf55256ec1a88a5d9",
+      "url": "https://github.com/shain1912/pnu-lectures-2026/blob/f25491512e69c264097fb1d10b650f0ceb135f7c/배포/데이터리터러시/6주차 차트 선택과 시각화의 함정.url"
+    }
+  ]
+}

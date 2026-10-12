@@ -1,0 +1,126 @@
+/* 20대 건강 데이터 덱 토큰
+ *
+ * 색 값의 근거: SEED design system 공식 배포본
+ *   @seed-design/stylesheet@1.1.2 / global.css, 라이트 테마 블록
+ *   https://cdn.jsdelivr.net/npm/@seed-design/stylesheet@1.1.2/global.css
+ *   Apache-2.0. 받은 날 2026-10-03. sha256 c9d3e08536081dca...
+ *   원본 스냅샷: ../design-standard/seed-global-1.1.2.css
+ * 아래 --seed-* 는 그 파일의 값을 그대로 옮긴 것이고, 역할 토큰만 이 덱이 정했다.
+ * SEED primary(carrot 계열)는 당근 브랜드 값이라 복제하지 않았다. 근거: ../design-standard/domain.md
+ *
+ * 글자 프리셋의 근거: school-projects 공통 디자인 표준(1920x1080 발표용).
+ * SEED 단계와의 차이는 ../design-standard/typography.md에 적었다.
+ */
+
+@font-face {
+  font-family: "Pretendard Variable";
+  src: url("../assets/fonts/PretendardVariable.woff2") format("woff2-variations");
+  font-weight: 45 920;
+  font-display: block;
+}
+
+:root {
+  --seed-gray-00: #ffffff;
+  --seed-gray-50: #f7f8fa;
+  --seed-gray-100: #f2f3f6;
+  --seed-gray-200: #eaebee;
+  --seed-gray-300: #dcdee3;
+  --seed-gray-400: #d1d3d8;
+  --seed-gray-500: #adb1ba;
+  --seed-gray-600: #868b94;
+  --seed-gray-700: #4d5159;
+  --seed-gray-800: #393a40;
+  --seed-gray-900: #212124;
+  --seed-blue-50: #ebf7fa;
+  --seed-blue-100: #d2edfa;
+  --seed-blue-200: #b9e3fa;
+  --seed-blue-500: #009ceb;
+  --seed-blue-700: #0077b2;
+  --seed-blue-900: #004c73;
+  --seed-red-50: #fff3f2;
+  --seed-red-100: #ffe5e3;
+  --seed-red-600: #fa2314;
+  --seed-red-800: #a62014;
+  --seed-green-50: #e8faf6;
+  --seed-green-100: #c7f2e4;
+  --seed-green-500: #1aa174;
+  --seed-green-700: #077a5e;
+  --seed-yellow-50: #fff7e6;
+  --seed-yellow-100: #ffe3ba;
+  --seed-yellow-400: #dea651;
+  --seed-yellow-700: #805217;
+
+  /* 글자 색은 흰 배경 대비 4.5:1 이상만 쓴다. 측정값은 design-standard/color.md. */
+  --ink: var(--seed-gray-900);        /* 16.06:1 */
+  --text-2: var(--seed-gray-700);     /*  7.96:1 */
+  --mute: var(--seed-gray-600);       /*  3.42:1 - 글자 금지. 선·격자·중립 채움만 */
+  --line: var(--seed-gray-300);
+  --line-soft: var(--seed-gray-200);
+  --track: var(--seed-gray-200);
+  --surface: var(--seed-gray-00);
+  --paper: var(--seed-gray-50);
+  --paper-deep: var(--seed-gray-100);
+
+  /* 접미사 없음 = 면·막대·점 채움, -text = 글자용(대비 통과분), -pale = 옅은 바탕 */
+  --evid: var(--seed-blue-500);          /* 근거·지표 (채움) */
+  --evid-text: var(--seed-blue-700);     /* 4.90:1 */
+  --evid-deep: var(--seed-blue-900);     /* 9.21:1 */
+  --evid-pale: var(--seed-blue-50);
+
+  --worse: var(--seed-red-600);          /* 악화·함정 (채움) */
+  --worse-text: var(--seed-red-800);     /* 7.40:1 */
+  --worse-pale: var(--seed-red-50);
+
+  --better: var(--seed-green-500);       /* 개선·검증 (채움) */
+  --better-text: var(--seed-green-700);  /* 5.31:1 */
+  --better-pale: var(--seed-green-50);
+
+  --unsure: var(--seed-yellow-400);      /* 미확정·대안 설명 (채움) */
+  --unsure-text: var(--seed-yellow-700); /* 6.69:1 */
+  --unsure-pale: var(--seed-yellow-50);
+
+  --chart-neutral: var(--seed-gray-400);
+  --chart-neutral-deep: var(--seed-gray-600);
+  --chart-grid: var(--seed-gray-200);
+  --chart-axis: var(--seed-gray-700);
+
+  --font: "Pretendard Variable", "Pretendard", system-ui, sans-serif;
+  --w-regular: 400;
+  --w-strong: 600;
+  --w-heavy: 800;
+  --t-display: 800 64px/80px var(--font);
+  --t-headline: 800 44px/56px var(--font);
+  --t-title: 800 28px/40px var(--font);
+  --t-subtitle: 600 22px/32px var(--font);
+  --t-body: 400 20px/32px var(--font);
+  --t-body-strong: 600 20px/32px var(--font);
+  --t-small: 400 18px/28px var(--font);
+  --t-small-strong: 600 18px/28px var(--font);
+  --t-kicker: 600 16px/24px var(--font);
+  --t-caption: 400 14px/24px var(--font);
+  --t-label: 600 14px/16px var(--font);
+  --t-num-l: 800 56px/64px var(--font);
+  --t-num-xl: 800 96px/96px var(--font);
+  /* 차트 글자 하한: 눈금·범례·직접 라벨 18px, 출처·n 캡션 14-15px */
+  --t-tick: 400 18px/24px var(--font);
+  --t-tick-strong: 600 18px/24px var(--font);
+
+  /* --s-4는 아이콘-글자 반 단계만 */
+  --s-4: 4px; --s-8: 8px; --s-16: 16px; --s-24: 24px; --s-32: 32px;
+  --s-48: 48px; --s-64: 64px; --s-96: 96px; --s-128: 128px;
+
+  /* 1920x1080, 12열 x 104, 거터 32, 내용 폭 1600 */
+  --margin-x: 160px;
+  --margin-top: 112px;
+  --margin-bottom: 64px;
+  --gutter: 32px;
+
+  --r-card: 24px;
+  --r-inner: 16px;
+  --r-small: 8px;
+  --r-pill: 999px;
+
+  --sh-1: 0 1px 2px rgba(33, 33, 36, .03), 0 8px 24px rgba(33, 33, 36, .04);
+  --sh-2: 0 8px 24px rgba(33, 33, 36, .08);
+  --sh-3: 0 24px 48px rgba(33, 33, 36, .14), 0 0 0 1px rgba(33, 33, 36, .05);
+}

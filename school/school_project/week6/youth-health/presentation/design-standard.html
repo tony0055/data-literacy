@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>디자인 표준 확인 화면 · 20대 건강 데이터 덱</title>
+<link rel="stylesheet" href="src/deck.css">
+<style>
+  .cs { display: grid; grid-template-columns: repeat(auto-fill, minmax(176px, 1fr)); gap: var(--s-16); }
+  .sw { border-radius: var(--r-small); overflow: hidden; border: 1px solid var(--line); }
+  .sw .box { height: 72px; }
+  .sw .meta { padding: 8px 10px; background: var(--surface); font: var(--t-caption); color: var(--text-2); }
+  .sw .meta b { display: block; font: var(--t-label); color: var(--ink); }
+  .ty { display: grid; grid-template-columns: 200px 1fr; gap: var(--s-8) var(--s-32); align-items: baseline; }
+  .ty dt { font: var(--t-label); color: var(--text-2); }
+  .gridviz { position: relative; height: 128px; }
+  .gridviz .col { background: var(--evid-pale); border-radius: var(--r-small); height: 100%; }
+  .sp { display: flex; align-items: flex-end; gap: var(--s-16); padding-bottom: var(--s-32); }
+  .sp div { background: var(--evid); border-radius: 4px 4px 0 0; position: relative; }
+  .sp span { position: absolute; top: 100%; left: 50%; transform: translateX(-50%); margin-top: 6px; font: var(--t-caption); color: var(--text-2); }
+  .rad { display: flex; gap: var(--s-24); }
+  .rad div { width: 112px; height: 112px; background: var(--paper-deep); display: grid; place-items: end center; padding-bottom: 8px; font: var(--t-caption); color: var(--text-2); }
+  .shd { display: flex; gap: var(--s-32); }
+  .shd div { width: 200px; height: 112px; border-radius: var(--r-card); background: var(--surface); display: grid; place-items: center; font: var(--t-label); color: var(--text-2); }
+</style>
+</head>
+<body>
+<div class="deck">
+
+<section class="slide">
+  <div class="head">
+    <div class="kicker"><b>확인 1</b><span>역할 색과 실제 대비</span></div>
+    <h2 class="headline">글자 색은 흰 배경 대비 4.5:1을 넘는 것만 쓴다</h2>
+    <p class="lead">같은 의미의 색을 <b>채움용</b>과 <b>글자용</b>으로 나눈 이유. 아래 수치는 WCAG 2.x 상대 휘도 공식으로 계산한 흰 배경(#ffffff) 대비값이다.</p>
+  </div>
+  <div class="body">
+    <div class="stack">
+      <div>
+        <p class="eyebrow">의미 색 · 채움용 (글자로 쓰지 않음)</p>
+        <div class="cs" data-type-ok>
+          <div class="sw" data-type-ok><div class="box" style="background:var(--evid)"></div><div class="meta"><b>--evid</b>blue-500 #009ceb · 3.02</div></div>
+          <div class="sw"><div class="box" style="background:var(--worse)"></div><div class="meta"><b>--worse</b>red-600 #fa2314 · 3.95</div></div>
+          <div class="sw"><div class="box" style="background:var(--better)"></div><div class="meta"><b>--better</b>green-500 #1aa174 · 3.28</div></div>
+          <div class="sw"><div class="box" style="background:var(--unsure)"></div><div class="meta"><b>--unsure</b>yellow-400 #dea651 · 2.17</div></div>
+          <div class="sw" data-type-ok><div class="box" style="background:var(--mute)"></div><div class="meta"><b>--mute</b>gray-600 #868b94 · 3.42</div></div>
+        </div>
+      </div>
+      <div>
+        <p class="eyebrow">같은 의미 · 글자용 (대비 통과분)</p>
+        <div class="cs" data-type-ok>
+          <div class="sw"><div class="box" style="background:var(--surface);display:grid;place-items:center;font:var(--t-title);color:var(--evid-text)">근거</div><div class="meta"><b>--evid-text</b>blue-700 #0077b2 · 4.90</div></div>
+          <div class="sw"><div class="box" style="background:var(--surface);display:grid;place-items:center;font:var(--t-title);color:var(--worse-text)">악화</div><div class="meta"><b>--worse-text</b>red-800 #a62014 · 7.40</div></div>
+          <div class="sw"><div class="box" style="background:var(--surface);display:grid;place-items:center;font:var(--t-title);color:var(--better-text)">개선</div><div class="meta"><b>--better-text</b>green-700 #077a5e · 5.31</div></div>
+          <div class="sw"><div class="box" style="background:var(--surface);display:grid;place-items:center;font:var(--t-title);color:var(--unsure-text)">미확정</div><div class="meta"><b>--unsure-text</b>yellow-700 #805217 · 6.69</div></div>
+          <div class="sw"><div class="box" style="background:var(--surface);display:grid;place-items:center;font:var(--t-title);color:var(--text-2)">보조</div><div class="meta"><b>--text-2</b>gray-700 #4d5159 · 7.96</div></div>
+        </div>
+      </div>
+      <div>
+        <p class="eyebrow">옅은 바탕과 면 위 글자</p>
+        <div class="row">
+          <span class="chip evid">근거 바탕 + 근거 글자</span>
+          <span class="chip worse">악화 바탕 + 악화 글자</span>
+          <span class="chip better">개선 바탕 + 개선 글자</span>
+          <span class="chip unsure">미확정 바탕 + 미확정 글자</span>
+          <span class="chip" style="background:var(--evid);border-color:transparent;color:var(--ink)">채움 위에는 진한 글자 (5.32)</span>
+          <span class="chip" style="background:var(--evid-deep);border-color:transparent;color:var(--surface)">blue-900 위 흰 글자 (9.21)</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sowe"><b>규칙</b><span>채움 색을 글자에 쓰지 않는다. <em>--mute</em>는 선·격자·중립 막대 전용이고 어떤 글자에도 쓰지 않는다.</span></div>
+  <div class="foot"><span class="source">근거: @seed-design/stylesheet@1.1.2 global.css 라이트 테마 · 대비는 WCAG 2.x 공식으로 계산</span><span class="pg"><b>1</b>/ 6</span></div>
+</section>
+
+<section class="slide">
+  <div class="head">
+    <div class="kicker"><b>확인 2</b><span>글자 프리셋 전부</span></div>
+    <h2 class="headline">발표 거리에서 읽히는 하한은 본문 18px</h2>
+    <p class="lead">굵기는 400 · 600 · 800 세 단계, 행간은 4px 기준선. 14~15px은 출처 · 쪽 번호 · 라벨에만 쓴다.</p>
+  </div>
+  <div class="body">
+    <dl class="ty" data-type-ok>
+      <dt data-type-ok>Display 800 64/80</dt><dd style="font:var(--t-display);letter-spacing:-0.035em">20대 건강, 데이터는 뭐라고 하나</dd>
+      <dt>Headline 800 44/56</dt><dd style="font:var(--t-headline);letter-spacing:-0.025em">진료 인원이 늘었다는 말로는 유병률을 말할 수 없다</dd>
+      <dt>Title 800 28/40</dt><dd style="font:var(--t-title)">비만 유병률 19~29세</dd>
+      <dt>Subtitle 600 22/32</dt><dd style="font:var(--t-subtitle)">같은 지표, 다른 연령 구분</dd>
+      <dt>Body 400 20/32</dt><dd style="font:var(--t-body)">숫자 옆에 연령대 · 기준연도 · 출처를 함께 둔다. 0123456789</dd>
+      <dt>Body strong 600 20/32</dt><dd style="font:var(--t-body-strong)">분모가 바뀌면 같은 숫자가 다른 뜻이 된다. 0123456789</dd>
+      <dt>Small 400 18/28</dt><dd style="font:var(--t-small)">카드 본문과 차트 눈금의 하한. 0123456789</dd>
+      <dt>Kicker 600 16/24</dt><dd style="font:var(--t-kicker);letter-spacing:.02em">질문 · 데이터 · 근거 · 검증 · 한계</dd>
+      <dt>Caption 400 14/24</dt><dd style="font:var(--t-caption)">출처: 질병관리청 국민건강영양조사, 2023 (n=7,000)</dd>
+      <dt>Label 600 14/16</dt><dd><span class="tag g-desc">기술</span><span class="tag s-ext">외부 자료</span><span class="tag g-est">추정</span><span class="tag s-calc">직접 계산</span><span class="tag s-unver">미확인</span></dd>
+      <dt>Number L 800 56/64</dt><dd class="num">30.2<span class="unit">%</span><span class="delta up">+8.0%p</span></dd>
+    </dl>
+  </div>
+  <div class="sowe"><b>규칙</b><span>헤드라인은 한 줄, 한글은 <em>keep-all</em>, 숫자는 <em>tabular-nums</em>로 자리를 맞춘다.</span></div>
+  <div class="foot"><span class="source">근거: school-projects 공통 디자인 표준(1920×1080) · SEED 단계와의 차이는 design-standard/typography.md</span><span class="pg"><b>2</b>/ 6</span></div>
+</section>
+
+<section class="slide">
+  <div class="head">
+    <div class="kicker"><b>확인 3</b><span>그리드 · 간격 · 모서리 · 그림자</span></div>
+    <h2 class="headline">12열 104px, 거터 32px, 내용 폭 1600px</h2>
+  </div>
+  <div class="body">
+    <div class="stack" data-type-ok>
+      <div class="grid gridviz">
+        <div class="col c1" style="grid-column:span 1"></div><div class="col" style="grid-column:span 1"></div><div class="col" style="grid-column:span 1"></div>
+        <div class="col" style="grid-column:span 1"></div><div class="col" style="grid-column:span 1"></div><div class="col" style="grid-column:span 1"></div>
+        <div class="col" style="grid-column:span 1"></div><div class="col" style="grid-column:span 1"></div><div class="col" style="grid-column:span 1"></div>
+        <div class="col" style="grid-column:span 1"></div><div class="col" style="grid-column:span 1"></div><div class="col" style="grid-column:span 1"></div>
+      </div>
+      <div class="grid">
+        <div class="c5">
+          <p class="eyebrow">간격 8 · 16 · 24 · 32 · 48 · 64 · 96 · 128</p>
+          <div class="sp">
+            <div style="width:8px;height:8px"><span>8</span></div>
+            <div style="width:16px;height:16px"><span>16</span></div>
+            <div style="width:24px;height:24px"><span>24</span></div>
+            <div style="width:32px;height:32px"><span>32</span></div>
+            <div style="width:48px;height:48px"><span>48</span></div>
+            <div style="width:64px;height:64px"><span>64</span></div>
+            <div style="width:96px;height:96px"><span>96</span></div>
+          </div>
+        </div>
+        <div class="c3">
+          <p class="eyebrow">모서리</p>
+          <div class="rad">
+            <div style="border-radius:var(--r-card)">24 카드</div>
+            <div style="border-radius:var(--r-inner)">16 블록</div>
+            <div style="border-radius:var(--r-small)">8 작은</div>
+          </div>
+        </div>
+        <div class="c4">
+          <p class="eyebrow">그림자 3단계</p>
+          <div class="shd">
+            <div style="box-shadow:var(--sh-1)">sh-1 카드</div>
+            <div style="box-shadow:var(--sh-2)">sh-2 떠 있는</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sowe"><b>규칙</b><span>나눔은 6+6 · 4+4+4 · 5+7을 먼저 쓰고, 한 장에 블록은 최대 4개까지 둔다.</span></div>
+  <div class="foot"><span class="source">근거: school-projects 공통 디자인 표준 · 캔버스 1920×1080, 여백 좌우 160 / 위 112 / 아래 64</span><span class="pg"><b>3</b>/ 6</span></div>
+</section>
+
+<section class="slide">
+  <div class="head">
+    <div class="kicker"><b>확인 4</b><span>뼈대와 컴포넌트</span></div>
+    <h2 class="headline">머리 · 본문 · 결론 · 꼬리말은 모든 장에서 같은 자리</h2>
+    <p class="lead">이 화면의 머리글 · 결론 띠 · 꼬리말이 바로 그 자리다.</p>
+  </div>
+  <div class="body">
+    <div class="grid">
+      <div class="c4 stack tight">
+        <div class="card">
+          <p class="eyebrow">카드 기본</p>
+          <h3>지표 하나, 메시지 하나</h3>
+          <p>카드는 같은 그룹이라는 뜻이 있을 때만 쓴다. 안쪽 여백 32px.</p>
+        </div>
+        <div class="card worse">
+          <p class="eyebrow">악화 · 함정</p>
+          <h3>분모를 보지 않은 증가</h3>
+          <p>원인이 아니라 집계 방식이 바뀐 경우.</p>
+        </div>
+      </div>
+      <div class="c4 stack tight">
+        <div class="card better">
+          <p class="eyebrow">검증 · 개선</p>
+          <h3>독립 집계와 대조</h3>
+          <p>인구로 나눠 비율로 바꾼 뒤 다시 본다.</p>
+        </div>
+        <div class="card unsure">
+          <p class="eyebrow">미확정 · 대안 설명</p>
+          <h3>진단 접근성 변화</h3>
+          <p>같은 증가를 설명하는 다른 이유.</p>
+        </div>
+      </div>
+      <div class="c4 stack tight">
+        <div class="key">
+          <p class="k">핵심 박스</p>
+          <p class="v">진료 인원 ≠ 유병률</p>
+        </div>
+        <div class="eq">
+          <p class="f">조율 = 환자 수 ÷ 해당 연령 인구 × 100,000</p>
+          <div class="legend"><span>환자 수 = 그 해 진료받은 사람</span><span>연령 인구 = 같은 해 추계인구</span></div>
+          <p class="plug">예: 1,234,567 ÷ 6,100,000 × 100,000 = 20,239</p>
+        </div>
+        <div class="row">
+          <span class="idx">1</span><span class="idx ghost">2</span>
+          <span class="chip">기본 칩</span>
+          <span class="chip evid">근거 칩</span>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sowe"><b>결론</b><span>결론 띠는 1px 선과 한 문장. 주장 라벨은 숫자 옆에 둔다 <span class="tag g-desc">기술</span><span class="tag s-ext">외부 자료</span></span></div>
+  <div class="foot"><span class="source">출처: 이 화면은 실제 src/tokens.css + src/deck.css로 그렸다</span><span class="pg"><b>4</b>/ 6</span></div>
+</section>
+
+<section class="slide">
+  <div class="head">
+    <div class="kicker"><b>확인 5</b><span>차트 부품 1 · 비교와 추세</span></div>
+    <h2 class="headline">강조 1색 + 중립 회색, 값은 직접 라벨로</h2>
+    <p class="lead">축 눈금 · 범례 · 직접 라벨은 18px 이상, 출처 · n 캡션만 15px.</p>
+  </div>
+  <div class="body">
+    <div class="grid">
+      <div class="c6 chart">
+        <div><p class="chart-title">막대: 범주 비교 · 강조 1곳</p><p class="chart-sub">y축 0 시작, 값 직접 라벨</p></div>
+        <svg viewBox="0 0 740 300" role="img" aria-label="막대 차트 샘플">
+          <g class="grid"><line x1="60" y1="20" x2="720" y2="20"/><line x1="60" y1="90" x2="720" y2="90"/><line x1="60" y1="160" x2="720" y2="160"/></g>
+          <line class="base" x1="60" y1="230" x2="720" y2="230"/>
+          <text class="tick" x="48" y="236" text-anchor="end">0</text>
+          <text class="tick" x="48" y="166" text-anchor="end">10</text>
+          <text class="tick" x="48" y="96" text-anchor="end">20</text>
+          <text class="tick" x="48" y="26" text-anchor="end">30</text>
+          <rect class="b-neutral" x="96" y="138" width="92" height="92"/><text class="vlab" x="142" y="128" text-anchor="middle">13.1</text>
+          <rect class="b-neutral" x="236" y="117" width="92" height="113"/><text class="vlab" x="282" y="107" text-anchor="middle">16.3</text>
+          <rect class="b-neutral" x="376" y="96" width="92" height="134"/><text class="vlab" x="422" y="86" text-anchor="middle">19.3</text>
+          <rect class="b-worse" x="516" y="19" width="92" height="211"/><text class="vlab" x="562" y="12" text-anchor="middle">30.2</text>
+          <text class="alab" x="142" y="258" text-anchor="middle">2013</text>
+          <text class="alab" x="282" y="258" text-anchor="middle">2016</text>
+          <text class="alab" x="422" y="258" text-anchor="middle">2019</text>
+          <text class="alab" x="562" y="258" text-anchor="middle">2023</text>
+          <text class="alab" x="60" y="290">단위: %</text>
+        </svg>
+        <p class="chart-note"><span>↑</span><span>마지막 막대만 강조색. 나머지는 중립 회색.</span></p>
+        <p class="chart-src">출처: 확인 화면용 샘플 값 · 실제 덱 차트는 chart-data.json에서만 그린다</p>
+      </div>
+      <div class="c6 chart">
+        <div><p class="chart-title">선: 추세 · 계열 2개</p><p class="chart-sub">계열은 색 + 직접 라벨로 구분</p></div>
+        <svg viewBox="0 0 740 300" role="img" aria-label="선 차트 샘플">
+          <g class="grid"><line x1="60" y1="20" x2="660" y2="20"/><line x1="60" y1="90" x2="660" y2="90"/><line x1="60" y1="160" x2="660" y2="160"/></g>
+          <line class="base" x1="60" y1="230" x2="660" y2="230"/>
+          <text class="tick" x="48" y="236" text-anchor="end">0</text>
+          <text class="tick" x="48" y="166" text-anchor="end">15</text>
+          <text class="tick" x="48" y="96" text-anchor="end">30</text>
+          <polyline class="l-worse" points="100,190 212,168 324,132 436,96 548,58"/>
+          <polyline class="l-neutral" points="100,200 212,196 324,200 436,192 548,188"/>
+          <text class="vlab" x="562" y="54" fill="var(--worse-text)">남성</text>
+          <text class="alab" x="562" y="192">여성</text>
+          <text class="alab" x="100" y="258" text-anchor="middle">2013</text>
+          <text class="alab" x="324" y="258" text-anchor="middle">2018</text>
+          <text class="alab" x="548" y="258" text-anchor="middle">2023</text>
+          <text class="alab" x="60" y="290">단위: %</text>
+        </svg>
+        <p class="chart-note"><span>↑</span><span>범례 대신 선 끝에 이름을 붙여 눈이 왕복하지 않게 한다.</span></p>
+        <p class="chart-src">출처: 확인 화면용 샘플 값 · n과 기준연도는 실제 차트에서 캡션에 적는다</p>
+      </div>
+    </div>
+  </div>
+  <div class="sowe"><b>규칙</b><span>순서 없는 범주에 순서형 컬러맵을 쓰지 않고, 축을 자르지 않으며, 자르면 그 사실을 장에 적는다.</span></div>
+  <div class="foot"><span class="source">근거: docs/data-to-slides-workflow.md §4 데이터 시각화 토큰</span><span class="pg"><b>5</b>/ 6</span></div>
+</section>
+
+<section class="slide">
+  <div class="head">
+    <div class="kicker"><b>확인 6</b><span>차트 부품 2 · 분포와 관계</span></div>
+    <h2 class="headline">분포는 구간 폭을, 관계는 이상값을 함께 보여 준다</h2>
+    <p class="lead">같은 데이터를 다른 기준으로 볼 때 축과 분모를 장에 적는다.</p>
+  </div>
+  <div class="body">
+    <div class="grid">
+      <div class="c6 chart">
+        <div><p class="chart-title">히스토그램: 분포 · 구간 폭 명시</p><p class="chart-sub">막대 사이 1px, 구간 폭을 캡션에 적는다</p></div>
+        <svg viewBox="0 0 740 220" role="img" aria-label="히스토그램 샘플">
+          <line class="base" x1="60" y1="170" x2="700" y2="170"/>
+          <rect class="b-evid" x="70" y="150" width="62" height="20"/>
+          <rect class="b-evid" x="133" y="118" width="62" height="52"/>
+          <rect class="b-evid" x="196" y="74" width="62" height="96"/>
+          <rect class="b-evid" x="259" y="40" width="62" height="130"/>
+          <rect class="b-evid" x="322" y="58" width="62" height="112"/>
+          <rect class="b-evid" x="385" y="96" width="62" height="74"/>
+          <rect class="b-evid" x="448" y="128" width="62" height="42"/>
+          <rect class="b-evid" x="511" y="152" width="62" height="18"/>
+          <text class="alab" x="70" y="198">18</text>
+          <text class="alab" x="290" y="198">25</text>
+          <text class="alab" x="540" y="198">32</text>
+          <text class="alab" x="60" y="214">단위: BMI (구간 폭 2)</text>
+        </svg>
+        <p class="chart-src">출처: 확인 화면용 샘플 값</p>
+      </div>
+      <div class="c6 chart">
+        <div><p class="chart-title">산점도: 관계 · 이상값 표시</p><p class="chart-sub">점 하나가 한 관측. 추세선은 보조 점선</p></div>
+        <svg viewBox="0 0 740 220" role="img" aria-label="산점도 샘플">
+          <g class="grid"><line x1="60" y1="40" x2="700" y2="40"/><line x1="60" y1="105" x2="700" y2="105"/></g>
+          <line class="base" x1="60" y1="170" x2="700" y2="170"/>
+          <polyline class="l-neutral" points="90,150 660,54"/>
+          <g class="b-evid">
+            <circle cx="110" cy="152" r="7"/><circle cx="170" cy="140" r="7"/><circle cx="230" cy="146" r="7"/>
+            <circle cx="290" cy="120" r="7"/><circle cx="350" cy="112" r="7"/><circle cx="410" cy="98" r="7"/>
+            <circle cx="470" cy="86" r="7"/><circle cx="530" cy="78" r="7"/><circle cx="590" cy="66" r="7"/>
+          </g>
+          <circle cx="640" cy="160" r="9" fill="none" stroke="var(--worse-text)" stroke-width="3"/>
+          <text class="note" x="600" y="190">이상값 1개</text>
+          <text class="alab" x="60" y="214">x: 수면시간(시간) · y: 지표(%)</text>
+        </svg>
+        <p class="chart-src">출처: 확인 화면용 샘플 값</p>
+      </div>
+    </div>
+  </div>
+  <div class="sowe"><b>규칙</b><span>히스토그램은 구간 폭을, 산점도는 이상값과 추세선의 성격을 캡션에 적는다.</span></div>
+  <div class="foot"><span class="source">근거: docs/data-to-slides-workflow.md §4 데이터 시각화 토큰</span><span class="pg"><b>6</b>/ 6</span></div>
+</section>
+
+</div>
+<script src="src/fit.js"></script>
+</body>
+</html>

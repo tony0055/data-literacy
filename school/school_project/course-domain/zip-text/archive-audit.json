@@ -1,0 +1,375 @@
+[
+  {
+    "archive": "d02-interactive-slides.zip",
+    "entries": [
+      {
+        "path": "index.html",
+        "bytes": 483,
+        "sha256": "73270c4d85c332e2b278e524591061dad16cd772a249bb8284726dabef6033ae",
+        "matches_source": false
+      },
+      {
+        "path": "READ-ME.txt",
+        "bytes": 666,
+        "sha256": "276e06a779ca4b69e923d08838cf78b4028f6477020fecd506e7c2859db3f7e6",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d02-collection-design.svg",
+        "bytes": 88221,
+        "sha256": "3da22eef3002a99693997ec621274b0533942e445b5788d0387249e2cad986b3",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d02-sampling-bias.svg",
+        "bytes": 80345,
+        "sha256": "4540fd4c6230670e18cd335d55ed9a23d8dd490039cd93f3caaefc5582cbd9ae",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d02-scales.svg",
+        "bytes": 77742,
+        "sha256": "2acc03bee7723428a7828b641fdcf4b60118b2173a4747cc111946f0cdfc67b9",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d02-survivorship.svg",
+        "bytes": 48581,
+        "sha256": "9c307822c61defcea80764beb4e25b0c914606bd5150c1a7981f9821b0d5a9d3",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d02-table-grammar.svg",
+        "bytes": 73123,
+        "sha256": "991a652e2512ba682e4f69ce5ce89f9e7938834ef1bc1ab615f3d1ceff4d53f2",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d02-tidy.svg",
+        "bytes": 78980,
+        "sha256": "d4834f0bd45a6d8d27d338a5e645565d07aae3acf2b9f9aa8d76f3a641cd1028",
+        "matches_source": false
+      },
+      {
+        "path": "slides/w02/index.html",
+        "bytes": 15062,
+        "sha256": "eb233396920bf837c52edb228b5244a4393abea9f565130c926e1d2e4275dd0e",
+        "matches_source": true
+      },
+      {
+        "path": "slides/_shared/deck.js",
+        "bytes": 1848,
+        "sha256": "cb6527cb76e8ae294e4c9007222737804cd129fd9cb8cc5e7082df6b7e9778f3",
+        "matches_source": true
+      },
+      {
+        "path": "slides/_shared/theme.css",
+        "bytes": 11885,
+        "sha256": "9589f91ca452e1473bdd373b2d8fdedc4d197805070c10f9179fee2fb1167598",
+        "matches_source": true
+      }
+    ]
+  },
+  {
+    "archive": "d03-interactive-slides.zip",
+    "entries": [
+      {
+        "path": "index.html",
+        "bytes": 483,
+        "sha256": "b5724ed6472a3e838cd32071f05a2f983730fceff37c9c545acd9497a635ad82",
+        "matches_source": false
+      },
+      {
+        "path": "READ-ME.txt",
+        "bytes": 666,
+        "sha256": "53a4ae999916d8a05febf0554a6ac0531ae1299d2747f4d58eec45726252f4d6",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d03-cleaning-log.svg",
+        "bytes": 93385,
+        "sha256": "fafe6be4dcf77a8052af8bfaa87177607952a6b7338261a1f35ba8b398a37db6",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d03-dirty-data.svg",
+        "bytes": 98852,
+        "sha256": "6c64254d9fef438390b5118d4d73201c534ddf23cfc75f5adb9f2ca47b6b3875",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d03-mean-imputation.svg",
+        "bytes": 76657,
+        "sha256": "6bb447ee3a4aa80a85efe176d4fe355b65effffd3e5e3804f1fcd1772551a2f0",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d03-missing-why.svg",
+        "bytes": 73040,
+        "sha256": "afb9d85ae277a5c14f51f659d9965a64803fcb82c7e0fec5117db9bf43bf3dba",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d03-same-data-diff-conclusion.svg",
+        "bytes": 60362,
+        "sha256": "464dc2ca28264af41c09112079c9b13347f7fc63aa30e8384929a2d365dfdf74",
+        "matches_source": false
+      },
+      {
+        "path": "slides/w03/index.html",
+        "bytes": 14535,
+        "sha256": "3a42c5f38f3e67bddc046fcebd7a25ad57ee6a378e418349431242245dca69ea",
+        "matches_source": true
+      },
+      {
+        "path": "slides/_shared/deck.js",
+        "bytes": 1848,
+        "sha256": "cb6527cb76e8ae294e4c9007222737804cd129fd9cb8cc5e7082df6b7e9778f3",
+        "matches_source": true
+      },
+      {
+        "path": "slides/_shared/theme.css",
+        "bytes": 11885,
+        "sha256": "9589f91ca452e1473bdd373b2d8fdedc4d197805070c10f9179fee2fb1167598",
+        "matches_source": true
+      },
+      {
+        "path": "slides/_shared/demos/d03.js",
+        "bytes": 5769,
+        "sha256": "0ff2494eb0cbf9f55e583d1bfaa9dc07e4e2998ea9184ff696c258e0d7f7005a",
+        "matches_source": false
+      }
+    ]
+  },
+  {
+    "archive": "d04-interactive-slides.zip",
+    "entries": [
+      {
+        "path": "index.html",
+        "bytes": 483,
+        "sha256": "be0ef0d468949b9d72d017c32c5190a821ed68ab0bc9911180fc4fa9ba8faf16",
+        "matches_source": false
+      },
+      {
+        "path": "READ-ME.txt",
+        "bytes": 666,
+        "sha256": "98c68d48516f2f9f91fca7b4d6d400ae80b50f1fdcc0f7a94bbb4d5bbc5f17d3",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d04-anscombe.svg",
+        "bytes": 100411,
+        "sha256": "80ede5812f47b69861ab3ac21079adc6c892a039de30386114690f527d2cc6ec",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d04-distribution-shapes.svg",
+        "bytes": 162003,
+        "sha256": "05ba816a5487271af2d51e7de4bc57d6ae7955fc0c15ab71c0e0b509825a6fbf",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d04-mean-trap.svg",
+        "bytes": 131637,
+        "sha256": "e1e589debe813701df6afb806e97849b9787a8a165854764b1a1ab928dce57b7",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d04-mean-vs-median.svg",
+        "bytes": 102735,
+        "sha256": "09c9ff675c8de03c3ee8db67818f67187950ddfac2a09c0c321de9d45428d7a4",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d04-same-mean-diff-spread.svg",
+        "bytes": 107319,
+        "sha256": "c7ba1d5d5ed0d78c4ad6f785376f718eaea5e82d2633dc24dce8a40e9ea725c7",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d04-variance-steps.svg",
+        "bytes": 132865,
+        "sha256": "c3412606c19c3460d3a56f5be41f7abaeae852595da7874f242996c4119f8c08",
+        "matches_source": false
+      },
+      {
+        "path": "slides/w04/index.html",
+        "bytes": 24164,
+        "sha256": "5b9900e52e3fd4aba1ae8388630daade7a3a958d1e28ae263a13b588d4eb309e",
+        "matches_source": false
+      },
+      {
+        "path": "slides/_shared/deck.js",
+        "bytes": 1848,
+        "sha256": "cb6527cb76e8ae294e4c9007222737804cd129fd9cb8cc5e7082df6b7e9778f3",
+        "matches_source": true
+      },
+      {
+        "path": "slides/_shared/theme.css",
+        "bytes": 11885,
+        "sha256": "9589f91ca452e1473bdd373b2d8fdedc4d197805070c10f9179fee2fb1167598",
+        "matches_source": true
+      },
+      {
+        "path": "slides/_shared/demos/d04.js",
+        "bytes": 9777,
+        "sha256": "5b79dd5ff039f1b3cd3901ec0e2bbf48cdd35fbd0a325e3933ee355f6f018ba0",
+        "matches_source": false
+      }
+    ]
+  },
+  {
+    "archive": "d05-interactive-slides.zip",
+    "entries": [
+      {
+        "path": "index.html",
+        "bytes": 483,
+        "sha256": "0bc79126eeace1e45abfe228f93735d89a426bf6404691f18f405dbbfbe72ae9",
+        "matches_source": false
+      },
+      {
+        "path": "READ-ME.txt",
+        "bytes": 666,
+        "sha256": "a0c13b279ebeb6597be6093ae0f5dd71dc8463cb8bc7f0292d3e95fb41b30583",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d05-normal-68-95.svg",
+        "bytes": 132848,
+        "sha256": "07b3795d06f37b72d1e8d176d7c22ecbec8f804e05cd2aad4328d2eac021c349",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d05-outlier-rules.svg",
+        "bytes": 94241,
+        "sha256": "0199e682e4c32822d61f213ba44a36a1319a239818b577703bbbacce858633f5",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d05-skew-breaks-z.svg",
+        "bytes": 106146,
+        "sha256": "8e706f234efbf07a2b7e8c220634a9d5b838b430abb4f3de95200e79d31e2974",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d05-two-subjects.svg",
+        "bytes": 164624,
+        "sha256": "041a3f6e59ca7843fa8dc434817f6604f83054058af92dd9ccb694492ae1bfb2",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d05-zscore-formula.svg",
+        "bytes": 90013,
+        "sha256": "15b602a6bb1247cfcbbfc7a0b5a2fb88bd888bea390c26b40191fc7f5600af22",
+        "matches_source": false
+      },
+      {
+        "path": "slides/w05/index.html",
+        "bytes": 22752,
+        "sha256": "d143778a3426428b90378acc8453fd209c63636f5ebed75d29acf9fa6693aa46",
+        "matches_source": true
+      },
+      {
+        "path": "slides/_shared/deck.js",
+        "bytes": 1848,
+        "sha256": "cb6527cb76e8ae294e4c9007222737804cd129fd9cb8cc5e7082df6b7e9778f3",
+        "matches_source": true
+      },
+      {
+        "path": "slides/_shared/theme.css",
+        "bytes": 11885,
+        "sha256": "9589f91ca452e1473bdd373b2d8fdedc4d197805070c10f9179fee2fb1167598",
+        "matches_source": true
+      },
+      {
+        "path": "slides/_shared/demos/d05.js",
+        "bytes": 10642,
+        "sha256": "8ac4213e96ff118b1daeee442f9263942dde4f0e39cd7e3e4bdee49257bde200",
+        "matches_source": true
+      }
+    ]
+  },
+  {
+    "archive": "d06-interactive-slides.zip",
+    "entries": [
+      {
+        "path": "index.html",
+        "bytes": 483,
+        "sha256": "214cfa7c3a396d5550ec1fb486f79f1d4e3225628f727495bc4187c9b0d7ac70",
+        "matches_source": false
+      },
+      {
+        "path": "READ-ME.txt",
+        "bytes": 666,
+        "sha256": "a5ef2b55cdb4faf92eaffe98c5c8dbcbcdd9e161dabe678019e002313f816a31",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d06-area-illusion.svg",
+        "bytes": 63701,
+        "sha256": "fbf37924e29a08e2cc1384bfbfe86293ed614a41099a9a3cacc3021a8bb2d77b",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d06-axis-truncation.svg",
+        "bytes": 68729,
+        "sha256": "da35fe7eb4f4d539156186efa6515eba1e13ff01278fe90c9364bb7233c9f61d",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d06-bin-width.svg",
+        "bytes": 83275,
+        "sha256": "5e34098c78e1534952b5bbb82a367fe550adfe68d55b2e3f05afa5715e100765",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d06-chart-decision.svg",
+        "bytes": 82146,
+        "sha256": "699ab8226643df8c104d8f30cb580d9146f294e5bbcedbfac3a75aeb8876dfd9",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d06-chart-strengths.svg",
+        "bytes": 196195,
+        "sha256": "a103acdbaf08675c1aef9782da13f9b65ff9576d8fe07cec510f48714c85b9e8",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d06-dual-axis.svg",
+        "bytes": 92488,
+        "sha256": "9b7593efbb38f10dc575d9b8d65b5d110e1bd18ffd96541e4d85a74e603017d7",
+        "matches_source": false
+      },
+      {
+        "path": "figures/out/d06-ml-overfitting.svg",
+        "bytes": 76332,
+        "sha256": "f0c1aaa2b3598541377a9a93df8ad407a74cd765780fec55e64411ae9e1c4aee",
+        "matches_source": false
+      },
+      {
+        "path": "slides/w06/index.html",
+        "bytes": 29725,
+        "sha256": "80553f9316ce5c9f057a5d0f29231e40e959dc6ca1692d3cc77ef40dff700054",
+        "matches_source": true
+      },
+      {
+        "path": "slides/_shared/deck.js",
+        "bytes": 1848,
+        "sha256": "cb6527cb76e8ae294e4c9007222737804cd129fd9cb8cc5e7082df6b7e9778f3",
+        "matches_source": true
+      },
+      {
+        "path": "slides/_shared/theme.css",
+        "bytes": 11885,
+        "sha256": "9589f91ca452e1473bdd373b2d8fdedc4d197805070c10f9179fee2fb1167598",
+        "matches_source": true
+      },
+      {
+        "path": "slides/_shared/demos/d06.js",
+        "bytes": 8156,
+        "sha256": "a062ef811aa6f6eabf422651208d97808aeff5d28c5bdcbba157c7d48c4c8d15",
+        "matches_source": true
+      }
+    ]
+  }
+]

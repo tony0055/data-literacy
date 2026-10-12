@@ -1,0 +1,53 @@
+{
+  "dataset": "smart_glasses_reviews.csv",
+  "collected_at": "2026-10-02",
+  "timezone": "Asia/Seoul",
+  "product_family": "Ray-Ban Meta Wayfarer (Gen 1)",
+  "selection": {
+    "total_rows": 15,
+    "site_count": 3,
+    "best_buy_rows": 4,
+    "walmart_rows": 6,
+    "target_rows": 5,
+    "duplicate_excerpt_count": 0,
+    "rule": "각 사이트에서 화면에 노출된 상위 리뷰를 수집하되 상품과 무관한 잘못 연결된 리뷰는 제외"
+  },
+  "sources": [
+    {
+      "site": "Best Buy",
+      "method": "Firecrawl v2 API scrape",
+      "url": "https://www.bestbuy.com/product/ray-ban-meta-wayfarer-gen-1-smart-ai-glasses-for-men-women-camera-audio-video-recording-green-lenses-shiny-black/BCKVZQ48PC#tabbed-customerreviews",
+      "http_status": 200,
+      "page_aggregate_rating": 4.7,
+      "page_aggregate_review_count": 3693,
+      "note": "페이지가 노출한 추천 리뷰 5건 중 Galaxy Buds 내용 1건은 상품 불일치로 제외"
+    },
+    {
+      "site": "Walmart",
+      "method": "Firecrawl v2 API scrape",
+      "url": "https://www.walmart.com/reviews/product/5272102656",
+      "http_status": 200,
+      "page_aggregate_rating": 4.2,
+      "page_aggregate_rating_count": 2692,
+      "page_review_count": 250
+    },
+    {
+      "site": "Target",
+      "method": "ego-lite dynamic review panel",
+      "url": "https://www.target.com/p/ray-ban-meta-wayfarer-smart-glasses-shiny-black-frames-green-lenses/-/A-92504117",
+      "http_status": 200,
+      "page_aggregate_rating": 3.39,
+      "page_aggregate_rating_count": 328,
+      "visible_review_count": 155,
+      "task_space_id": 2,
+      "note": "Firecrawl API 본문에는 개별 리뷰가 없어 ego-lite로 Show all reviews와 Show 6 more reviews를 열어 확인"
+    }
+  ],
+  "limitations": [
+    "표본은 확률표본이 아니라 각 사이트 기본 노출·최신 정렬의 편의표본이다.",
+    "Best Buy의 작성일은 페이지가 상대 날짜로만 표시해 review_date를 비우고 review_date_raw를 보존했다.",
+    "Target에는 상품 성능이 아닌 배송 경험 리뷰가 포함되어 review_scope로 구분했다.",
+    "저작권과 재사용 범위를 고려해 리뷰 전문이 아니라 짧은 원문 발췌만 저장했다.",
+    "사이트 내용과 정렬은 바뀔 수 있으므로 collected_at과 source_url을 함께 사용해야 한다."
+  ]
+}

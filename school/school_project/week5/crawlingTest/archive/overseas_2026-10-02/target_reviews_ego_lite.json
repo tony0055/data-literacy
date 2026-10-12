@@ -1,0 +1,66 @@
+{
+  "source": "Target",
+  "source_url": "https://www.target.com/p/ray-ban-meta-wayfarer-smart-glasses-shiny-black-frames-green-lenses/-/A-92504117",
+  "product_name": "Ray-Ban Meta (Gen 1) Wayfarer",
+  "product_variant": "Shiny Black/Green Lens, Regular",
+  "aggregate_rating": 3.39,
+  "aggregate_rating_scale": 5,
+  "aggregate_rating_count": 328,
+  "visible_review_count": 155,
+  "collected_at": "2026-10-02",
+  "collection_method": "ego-lite",
+  "task_space_id": 2,
+  "selection_rule": "most recent 정렬에서 화면에 먼저 표시된 리뷰 중 앞 5건",
+  "reviews": [
+    {
+      "rating": 1,
+      "review_date": "2026-09-12",
+      "review_date_raw": "12 September, 2026",
+      "review_title": "Garbage",
+      "reviewer_name": "Jackley",
+      "verified_purchase": true,
+      "review_scope": "product",
+      "review_excerpt": "The glasses broke within a month and they offer no repair service at Ray Ban or Meta. Expensive defective glasses."
+    },
+    {
+      "rating": 1,
+      "review_date": "2026-07-10",
+      "review_date_raw": "10 July, 2026",
+      "review_title": null,
+      "reviewer_name": null,
+      "verified_purchase": null,
+      "review_scope": "delivery",
+      "review_excerpt": "they promis.ed to deliver it in 1 week but now it is backordered and delayed for two more weeks. Not happy"
+    },
+    {
+      "rating": 1,
+      "review_date": "2026-07-04",
+      "review_date_raw": "4 July, 2026",
+      "review_title": null,
+      "reviewer_name": null,
+      "verified_purchase": true,
+      "review_scope": "product",
+      "review_excerpt": "The glasses are amazing but they die way too quickly"
+    },
+    {
+      "rating": 1,
+      "review_date": "2026-07-04",
+      "review_date_raw": "4 July, 2026",
+      "review_title": "Frustrated",
+      "reviewer_name": null,
+      "verified_purchase": true,
+      "review_scope": "delivery",
+      "review_excerpt": "I never got them. UPS said it was delivered. Called target and ups and never got helped! Terrible experience"
+    },
+    {
+      "rating": 1,
+      "review_date": "2026-06-26",
+      "review_date_raw": "26 June, 2026",
+      "review_title": "Meta gelasses",
+      "reviewer_name": null,
+      "verified_purchase": true,
+      "review_scope": "delivery",
+      "review_excerpt": "They took my money and delivered wrong cheap item"
+    }
+  ]
+}

@@ -5,7 +5,9 @@ from pathlib import Path
 import unittest
 
 ROOT = Path(__file__).resolve().parents[1]
-TITANIC_DIR = ROOT / "school_project" / "week3" / "titanic"
+TITANIC_DIR = ROOT / "school" / "school_project" / "week3" / "titanic"
+if not TITANIC_DIR.exists():
+    TITANIC_DIR = ROOT / "school_project" / "week3" / "titanic"
 
 
 class TitanicEDATests(unittest.TestCase):
