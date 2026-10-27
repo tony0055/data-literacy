@@ -15,7 +15,8 @@
 | 수업 개념·과제 기준·강의 원문 | [수업 도메인](school/school_project/course-domain/README.md) |
 | 덱·발표자료·발표 링크 제출 | 공통 `designing-decks-and-motion`(`../../.agents/skills/`) → [데이터 덱 층](docs/data-to-slides-workflow.md)(SEED·차트·모션·배포) |
 | 조사·수집·문서 변환 도구 고르기 | [Capabilities](harness/capabilities.md) |
-| OmO 배정 — 카테고리·위임·만드는 쪽과 검증하는 쪽 | [Routing](harness/routing.md) |
+| 서브에이전트·다른 세션에 맡길 때 — 맡기는 글 형식·세 층 분담·만드는 쪽과 검증하는 쪽 | AI-native Director System의 [routing.md](<../../../AI-native Director System/harness/routing.md>). 프리셋이 없으면 Agent 도구의 model·effort로 같은 자리를 만든다 |
+| 이 저장소 일의 OmO 카테고리 배정 | [Routing](harness/routing.md) |
 | 다음 할 일 추천 / 문맥 정리 | 전역 `harness-next` / `harness-context-clean` |
 | 하네스·스킬 수정, **실수가 드러나거나 바로잡혔을 때** | 전역 `harness-design`. 실수는 그 스킬의 `references/update-loop.md`대로 고치는 턴 안에서 [실패 대장](harness/failures.jsonl)에 한 줄 남긴다 |
 
